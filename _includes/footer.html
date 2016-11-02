@@ -1,1 +1,26 @@
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+<span>
+  &copy;
+  {{ site.time | date: '%Y' }}
+  {{ site.owner.name }}.
+  Powered by
+  <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>
+  using the
+  <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>
+  .
+</span>
+
+<span>
+<a href="http://panac.github.io/feed" rel="nofollow">Abonnez-vous</a>
+</span>
+
+<span>
+  {% if site.owner.email %}<li>
+    <a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
+  </li>{% endif %}
+  {% if site.owner.github %}<li>
+    <a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i> GitHub</a>
+  </li>{% endif %}
+  {% if site.owner.twitter %}<li>
+    <a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+  </li>{% endif %}
+</span>
