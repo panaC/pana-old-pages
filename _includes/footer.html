@@ -9,18 +9,20 @@
   .
 </span>
 
-<span>
-<a href="http://panac.github.io/feed" rel="nofollow">Abonnez-vous</a>
-</span>
+<span></span>
 
 <span>
-  {% if site.owner.email %}<li>
+  <a href="http://panac.github.io/feed" rel="nofollow"><i class="fa fa-fw fa-feed"></i>Subscribe</a>
+   |
+  {% if site.owner.email %}
     <a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
-  </li>{% endif %}
-  {% if site.owner.github %}<li>
+  {% endif %}
+   |
+  {% if site.owner.github %}
     <a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i> GitHub</a>
-  </li>{% endif %}
-  {% if site.owner.twitter %}<li>
+  {% endif %}
+   |
+  {% if site.owner.twitter %}
     <a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
-  </li>{% endif %}
+  {% endif %}
 </span>
