@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Blog
+description:      I try to keep a blog on my discovery
 disqus_shortname: panac
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url:
 owner:
   name:           Pierre Leroux
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
+  bio:            "Ici mon speech"
   email:          panacpp@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: panacpp
