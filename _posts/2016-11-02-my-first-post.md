@@ -14,6 +14,8 @@ image:
 
 Jekyll est un très bon générateur de fichier statique, son fonctionnement est simple et nécéssite juste de pusher des "posts" dans le bon répertoire et jekyll s'occupe de tout
 
+$('.entry-content').toc({minItemsToShowToc:0});
+
 ## Github-pages
 
 Github met en place un serveur jekyll autonome
