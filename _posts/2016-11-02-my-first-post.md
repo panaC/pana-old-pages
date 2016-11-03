@@ -20,5 +20,5 @@ Jekyll est un très bon générateur de fichier statique, son fonctionnement est
 
 Github met en place un serveur jekyll autonome
 
-![Smithsonian Image]({{ site.url }}images/twitter-card-summary-large-image.jpg)
+![Smithsonian Image]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
 {: .image-right}
