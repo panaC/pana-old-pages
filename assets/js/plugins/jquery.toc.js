@@ -30,12 +30,12 @@
 
     $.fn.toc = function(settings) {
         var config = {
-            renderIn: 'self',
+            renderIn: '#toc',
             anchorPrefix: 'tocAnchor-',
             showAlways: false,
             minItemsToShowToc: 2,
             saveShowStatus: true,
-            contentsText: 'Contents',
+            contentsText: 'Sommaire :',
             hideText: 'hide',
             showText: 'show',
             showCollapsed: false};

@@ -5,6 +5,14 @@
 <!-- TOC tocmd-generator -->
 <script src="{{ site.url }}/assets/js/plugins/jquery.toc.js"></script>
 
+<script>
+  $(function() {
+    $('.entry-content').toc({
+      minItemsToShowToc:0
+    });
+  });
+</script>
+
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
