@@ -2,3 +2,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 _draft_unsync
+_draft/.*
+_posts/.*
